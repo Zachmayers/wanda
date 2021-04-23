@@ -3,6 +3,12 @@
 import websocket, json, pprint
 
 SOCKET = "wss://stream.binance.com:9443/ws/dogeusdt@kline_1m"
+RSI_PERIOD = 14
+RSI_OVERBOUGHT = 70
+RSI_OVERSOLD = 30
+TRADE_SYMBOL = 'DOGEUSD'
+TRADE_QUANTITY = 10
+
 
 closes = []
 in_position = False
